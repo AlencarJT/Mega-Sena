@@ -25,6 +25,8 @@ print(f'Os valores jogados foram: {jogo}')
 if acertos == 6:
     print(f'Parabéns, você ficou rico, acertou os {acertos} números da loteria')
 elif acertos == 5:
-    print(f'Você acertou {acertos} números. Fez a Quina, legal')
+    print(f'Você acertou {acertos} números. Fez a Quina, muito legal')
+elif acertos == 4:
+    print(f'Você acertou {acertos} números. Fez a Quadra, legal')
 else:
     print(f'Você acertou {acertos} números. Mais sorte no próximo jogo!')
